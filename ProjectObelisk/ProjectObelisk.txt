@@ -1,0 +1,156 @@
+Configuration	ProjectObelisk
+STM32CubeMX 	6.13.0
+Date	12/17/2024
+MCU	STM32H7A3ZITxQ
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DCMI	Slave 8 bits External Synchro	DCMI_D0	PC6
+DCMI	Slave 8 bits External Synchro	DCMI_D1	PC7
+DCMI	Slave 8 bits External Synchro	DCMI_D2	PB13
+DCMI	Slave 8 bits External Synchro	DCMI_D3	PC9
+DCMI	Slave 8 bits External Synchro	DCMI_D4	PE4
+DCMI	Slave 8 bits External Synchro	DCMI_D5	PD3
+DCMI	Slave 8 bits External Synchro	DCMI_D6	PE5
+DCMI	Slave 8 bits External Synchro	DCMI_D7	PE6
+DCMI	Slave 8 bits External Synchro	DCMI_HSYNC	PA4
+DCMI	Slave 8 bits External Synchro	DCMI_PIXCLK	PA6
+DCMI	Slave 8 bits External Synchro	DCMI_VSYNC	PG9
+DEBUG	Serial Wire	DEBUG_JTCK-SWCLK	PA14
+DEBUG	Serial Wire	DEBUG_JTMS-SWDIO	PA13
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+RCC	Clock-out-1	RCC_MCO_1	PA8
+SPI1	Full-Duplex Master	SPI1_MISO	PB4
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SPI1	Hardware NSS Input Signal	SPI1_NSS	PA15
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM4	Internal Clock	TIM4_VS_ClockSourceINT	VP_TIM4_VS_ClockSourceINT
+TIM4	PWM Generation CH1	TIM4_CH1	PD12
+UART4	Asynchronous	UART4_RX	PA1
+UART4	Asynchronous	UART4_TX	PA0
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PE4	DCMI_D4	
+4	PE5	DCMI_D6	
+5	PE6	DCMI_D7	
+37	PA0	UART4_TX	
+38	PA1	UART4_RX	
+43	PA4	DCMI_HSYNC	
+44	PA5	SPI1_SCK	
+45	PA6	DCMI_PIXCLK	
+46	PA7	SPI1_MOSI	
+61	PE11	GPIO_Output	CAMERA_PWDN
+62	PE12	GPIO_Output	CAMERA_RESET
+73	PB13	DCMI_D2	
+76	PD8	GPIO_Output	BLUE_LED
+77	PD9	GPIO_Input	DECIDER_BUTTON
+78	PD10	GPIO_Input	TRAIN_IMG1_BUTTON
+81	PD11	GPIO_Input	TRAIN_IMG2_BUTTON
+82	PD12	TIM4_CH1	SERVO_PWM
+93	PC6	DCMI_D0	
+94	PC7	DCMI_D1	
+96	PC9	DCMI_D3	
+97	PA8	RCC_MCO_1	
+102	PA13	DEBUG_JTMS-SWDIO	
+107	PA14	DEBUG_JTCK-SWCLK	
+108	PA15	SPI1_NSS	
+115	PD3	DCMI_D5	
+120	PD6	GPIO_Output	GREEN_LED
+121	PD7	GPIO_Output	RED_LED
+122	PG9	DCMI_VSYNC	
+131	PB4	SPI1_MISO	
+133	PB6	I2C1_SCL	
+134	PB7	I2C1_SDA	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DCMI	Slave 8 bits External Synchro	DCMI_D0	PC6
+DCMI	Slave 8 bits External Synchro	DCMI_D1	PC7
+DCMI	Slave 8 bits External Synchro	DCMI_D2	PB13
+DCMI	Slave 8 bits External Synchro	DCMI_D3	PC9
+DCMI	Slave 8 bits External Synchro	DCMI_D4	PE4
+DCMI	Slave 8 bits External Synchro	DCMI_D5	PD3
+DCMI	Slave 8 bits External Synchro	DCMI_D6	PE5
+DCMI	Slave 8 bits External Synchro	DCMI_D7	PE6
+DCMI	Slave 8 bits External Synchro	DCMI_HSYNC	PA4
+DCMI	Slave 8 bits External Synchro	DCMI_PIXCLK	PA6
+DCMI	Slave 8 bits External Synchro	DCMI_VSYNC	PG9
+DEBUG	Serial Wire	DEBUG_JTCK-SWCLK	PA14
+DEBUG	Serial Wire	DEBUG_JTMS-SWDIO	PA13
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+RCC	Clock-out-1	RCC_MCO_1	PA8
+SPI1	Full-Duplex Master	SPI1_MISO	PB4
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SPI1	Hardware NSS Input Signal	SPI1_NSS	PA15
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM4	Internal Clock	TIM4_VS_ClockSourceINT	VP_TIM4_VS_ClockSourceINT
+TIM4	PWM Generation CH1	TIM4_CH1	PD12
+UART4	Asynchronous	UART4_RX	PA1
+UART4	Asynchronous	UART4_TX	PA0
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PE4	DCMI_D4	
+4	PE5	DCMI_D6	
+5	PE6	DCMI_D7	
+37	PA0	UART4_TX	
+38	PA1	UART4_RX	
+43	PA4	DCMI_HSYNC	
+44	PA5	SPI1_SCK	
+45	PA6	DCMI_PIXCLK	
+46	PA7	SPI1_MOSI	
+61	PE11	GPIO_Output	CAMERA_PWDN
+62	PE12	GPIO_Output	CAMERA_RESET
+73	PB13	DCMI_D2	
+76	PD8	GPIO_Output	BLUE_LED
+77	PD9	GPIO_Input	DECIDER_BUTTON
+78	PD10	GPIO_Input	TRAIN_IMG1_BUTTON
+81	PD11	GPIO_Input	TRAIN_IMG2_BUTTON
+82	PD12	TIM4_CH1	SERVO_PWM
+93	PC6	DCMI_D0	
+94	PC7	DCMI_D1	
+96	PC9	DCMI_D3	
+97	PA8	RCC_MCO_1	
+102	PA13	DEBUG_JTMS-SWDIO	
+107	PA14	DEBUG_JTCK-SWCLK	
+108	PA15	SPI1_NSS	
+115	PD3	DCMI_D5	
+120	PD6	GPIO_Output	GREEN_LED
+121	PD7	GPIO_Output	RED_LED
+122	PG9	DCMI_VSYNC	
+131	PB4	SPI1_MISO	
+133	PB6	I2C1_SCL	
+134	PB7	I2C1_SDA	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : ProjectObelisk
+Project Folder : C:\Users\BRADE\ECE395\ProjectObelisk
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_H7 V1.12.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
